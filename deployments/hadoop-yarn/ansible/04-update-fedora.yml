@@ -25,7 +25,7 @@
 
 - name: "DNF update"
   gather_facts: false
-  hosts: masters:workers:zeppelin
+  hosts: masters:workers:zeppelin:monitor
   vars_files:
     - /tmp/ansible-vars.yml
   tasks:
